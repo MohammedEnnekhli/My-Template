@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+    />
+    <title>Special Design</title>
+  </head>
+  <body>
+    <!-- Start Settings box -->
+    <div class="settings-box">
+      <h3>Setting Boxe</h3>
+      <div class="toggle-settings">
+        <i class="fa fa-gear"></i>
+      </div>
+      <div class="setting-card">
+        <h4>Colors</h4>
+        <div class="colors-option">
+          <div class="active" data-color="#ff9800"></div>
+          <div data-color="#e91e63"></div>
+          <div data-color="#9c27b0"></div>
+          <div data-color="#2196f3"></div>
+          <div data-color="#4caf50"></div>
+        </div>
+      </div>
+      <div class="setting-card">
+        <h4>Random backgrounds</h4>
+        <div class="random-backgrounds">
+          <span class="active yes" data-bg="yes">Yes</span>
+          <span class="no" data-bg="no">No</span>
+        </div>
+      </div>
+      <div class="setting-card">
+        <h4>Show Bullets</h4>
+        <div class="bullets-option">
+          <span class="active yes" data-display="show">Yes</span>
+          <span class="no" data-display="hide">No</span>
+        </div>
+      </div>
+      <button class="reset-options">Reset Options</button>
+    </div>
+    <!-- End Settings box -->
+
+    <!-- Start Nav Bullets -->
+    <div class="nav-bullets">
+      <div class="bullet" data-section=".about-us">
+        <div class="tooltip">
+          About Us
+        </div>
+      </div>
+      <div class="bullet" data-section=".skills">
+        <div class="tooltip">
+          Our Skills
+        </div>
+      </div>
+      <div class="bullet" data-section=".gallery">
+        <div class="tooltip">
+          Our Gallery
+        </div>
+      </div>
+      <div class="bullet" data-section=".timeline">
+        <div class="tooltip">
+          Timeline
+        </div>
+      </div>
+      <div class="bullet" data-section=".features">
+        <div class="tooltip">
+          Features
+        </div>
+      </div>
+      <div class="bullet" data-section=".testimonials">
+        <div class="tooltip">
+          Testimonials
+        </div>
+      </div>
+      <div class="bullet" data-section=".contact-us">
+        <div class="tooltip">
+          Contact Us
+        </div>
+      </div>
+    </div>
+
+    <!-- End Nav Bullets -->
+
+    <!-- Start Landing page -->
+
+    <div class="landing-page">
+      <div class="container">
+        <div class="header-area">
+          <h3>Special Design</h3>
+          <div class="links-container">
+            <ul>
+              <li>
+                <a href="#" class="active" data-section=".about-us">About Us</a>
+              </li>
+              <li><a href="#" data-section=".skills">Skills</a></li>
+              <li><a href="#" data-section=".gallery"> Gallery</a></li>
+              <li><a href="#" data-section=".timeline">Timeline</a></li>
+              <li><a href="#" data-section=".features">Features</a></li>
+              <li>
+                <a href="#" data-section=".testimonials">Testimonials</a>
+              </li>
+            </ul>
+            <button class="toggle-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+        <div class="introduction-text">
+          <h1>We Are <span>Creative</span> Agency</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            veniam minus vero delectus, libero voluptates at ea aspernatur iusto
+            quos, quaerat minima. Similique doloribus neque saepe repudiandae
+            voluptates cumque laboriosam.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Landing page -->
+
+    <!-- Start About Us -->
+    <div class="container">
+      <div class="about-us">
+        <div class="about-us-description">
+          <h2>About Us</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis ea
+            voluptates iure odit in exercitationem sunt laborum necessitatibus,
+            harum perferendis, nemo, quasi quibusdam deleniti accusamus eligendi
+            aliquid et eaque illum!
+          </p>
+        </div>
+        <div class="about-us-img">
+          <img src="images/kisspng.png" />
+        </div>
+      </div>
+    </div>
+    <!-- End About Us -->
+
+    <!-- Start Our Skills -->
+
+    <div class="skills">
+      <div class="container">
+        <h2>Our Skills</h2>
+        <div class="skill-box">
+          <div class="skill-name">HTML</div>
+          <div class="skill-taux">
+            <span data-progress="90%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">CSS</div>
+          <div class="skill-taux">
+            <span data-progress="85%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Javascript</div>
+          <div class="skill-taux">
+            <span data-progress="70%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Adob xd</div>
+          <div class="skill-taux">
+            <span data-progress="50%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Our Skills -->
+
+    <!-- Start Gallery-->
+    <div class="gallery">
+      <div class="container">
+        <h2>Our Gallery</h2>
+        <div class="images-box">
+          <img src="images/img1.jpg" alt="img1" />
+          <img src="images/img2.jpg" alt="img2" />
+          <img src="images/img3.jpg" alt="img3" />
+          <img src="images/img4.jpg" alt="img4" />
+          <img src="images/img5.jpg" alt="img5" />
+          <img src="images/img6.jpg" alt="img6" />
+          <img src="images/img7.jpg" alt="img7" />
+          <img src="images/img8.jpg" alt="img8" />
+          <img src="images/img9.jpg" alt="img9" />
+          <img src="images/img10.jpg" alt="img10" />
+        </div>
+      </div>
+    </div>
+    <!-- End Gallery-->
+
+    <!-- Start timeline-->
+
+    <div class="timeline">
+      <div class="container">
+        <div class="timeline-box">
+          <div class="year">2018</div>
+          <div class="left">
+            <div class="content">
+              <h3>Project 1</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Officiis ad amet quos magni! Molestiae voluptatibus tempora
+                veritatis ex odit a laboriosam nulla necessitatibus delectus
+                vel! Autem quidem similique exercitationem sint.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Project 2</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Officiis ad amet quos magni! Molestiae voluptatibus tempora
+                veritatis ex odit a laboriosam nulla necessitatibus delectus
+                vel! Autem quidem similique exercitationem sint.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="year">2019</div>
+          <div class="left">
+            <div class="content">
+              <h3>Project 3</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Officiis ad amet quos magni! Molestiae voluptatibus tempora
+                veritatis ex odit a laboriosam nulla necessitatibus delectus
+                vel! Autem quidem similique exercitationem sint.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Project 4</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Officiis ad amet quos magni! Molestiae voluptatibus tempora
+                veritatis ex odit a laboriosam nulla necessitatibus delectus
+                vel! Autem quidem similique exercitationem sint.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End timeline-->
+
+    <!-- Start Our features-->
+
+    <div class="container">
+      <div class="features">
+        <h2>Our features</h2>
+        <div class="feature-box">
+          <img src="/images/icon1.png" alt="" />
+          <h4>Service 1</h4>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
+            obcaecati laudantium expedita aliquam deleniti nobis quas ea ipsum
+            accusamus veritatis
+          </p>
+        </div>
+        <div class="feature-box">
+          <img src="/images/icon2.png" alt="" />
+          <h4>Service 2</h4>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
+            obcaecati laudantium expedita aliquam deleniti nobis quas ea ipsum
+            accusamus veritatis
+          </p>
+        </div>
+        <div class="feature-box">
+          <img src="/images/icon3.png" alt="" />
+          <h4>Service 3</h4>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
+            obcaecati laudantium expedita aliquam deleniti nobis quas ea ipsum
+            accusamus veritatis
+          </p>
+        </div>
+        <div class="feature-box">
+          <img src="/images/icon4.png" alt="" />
+          <h4>Service 4</h4>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
+            obcaecati laudantium expedita aliquam deleniti nobis quas ea ipsum
+            accusamus veritatis
+          </p>
+        </div>
+        <div class="feature-box">
+          <img src="/images/icon5.png" alt="" />
+          <h4>Service 5</h4>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
+            obcaecati laudantium expedita aliquam deleniti nobis quas ea ipsum
+            accusamus veritatis
+          </p>
+        </div>
+        <div class="feature-box">
+          <img src="/images/icon6.png" alt="" />
+          <h4>Service 6</h4>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
+            obcaecati laudantium expedita aliquam deleniti nobis quas ea ipsum
+            accusamus veritatis
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Our features-->
+
+    <!-- Start Testimonials-->
+    <div class="testimonials">
+      <div class="container">
+        <h2>Testimonials</h2>
+        <div class="test-box">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+            architecto a atque suscipit et ratione debitis ducimus? Modi sint!
+          </p>
+          <div class="person-info">
+            <img src="images/avatar1.svg" />
+            <h4>Jamal Malki</h4>
+            <p>CEO At Company</p>
+          </div>
+        </div>
+        <div class="test-box">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+            architecto a atque suscipit et ratione debitis ducimus? Modi sint!
+          </p>
+          <div class="person-info">
+            <img src="images/avatar2.png" />
+            <h4>Farid Alaoui</h4>
+            <p>Backend Developer</p>
+          </div>
+        </div>
+        <div class="test-box">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+            architecto a atque suscipit et ratione debitis ducimus? Modi sint!
+          </p>
+          <div class="person-info">
+            <!-- <img src="https://placehold.it/80/CCC" /> -->
+            <img src="images/avatar3.png" />
+            <h4>Said Wakili</h4>
+            <p>Frontend Developer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Testimonials-->
+
+    <!-- Start Contact Us-->
+    <div class="contact-us">
+      <div class="overlay"></div>
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form action="" method="post">
+          <div class="left">
+            <input type="text" placeholder="Your Name" name="username" />
+            <input type="text" placeholder="Your Phone" name="phone" />
+            <input type="email" placeholder="Your Email" name="email" />
+            <input type="text" placeholder="Subject" name="subject" />
+          </div>
+          <div class="right">
+            <textarea placeholder="Your Message" name="message"></textarea>
+            <input type="submit" value="send" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- End Contact Us-->
+    <!-- Start footer-->
+    <div class="footer">
+      Created With Love By Sounhalazoun
+    </div>
+    <!-- End footer-->
+
+    <!-- Start Scroll Top -->
+    <div id="scroll-top">
+      <i class="fa fa-arrow-up fa-2x"></i>
+    </div>
+
+    <!-- End Scroll Top -->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
