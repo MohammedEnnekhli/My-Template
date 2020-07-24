@@ -176,11 +176,10 @@ selectBg.forEach((span) => {
   });
 });
 
-// select skills selector
+window.addEventListener("scroll", () => {
+  // select skills selector
 
-let ourSkills = document.querySelector(".skills");
-
-window.onscroll = function () {
+  let ourSkills = document.querySelector(".skills");
   // skills offset top
   let skillsOffsetTop = ourSkills.offsetTop;
   // skills outer height
@@ -198,8 +197,7 @@ window.onscroll = function () {
       skill.style.width = skill.dataset.progress;
     });
   }
-};
-console.log(windowScrollTop);
+});
 
 // create Popup with the Image
 
