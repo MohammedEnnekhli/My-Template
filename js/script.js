@@ -39,7 +39,7 @@ function randomizeImgs() {
     bgInterval = setInterval(
       () => {
         randomNumber = Math.floor(Math.random() * imagesArray.length);
-        landingPage.style.backgroundImage = `url(../images/${imagesArray[randomNumber]})`;
+        landingPage.style.backgroundImage = `url(images/${imagesArray[randomNumber]})`;
       },
 
       3000
@@ -198,9 +198,8 @@ window.onscroll = function () {
       skill.style.width = skill.dataset.progress;
     });
   }
-  //console.log("skills3", windowScrollTop);
 };
-//console.log("skill4", windowScrollTop);
+console.log(windowScrollTop);
 
 // create Popup with the Image
 
